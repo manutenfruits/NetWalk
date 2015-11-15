@@ -1,0 +1,40 @@
+{
+  "name": "netwalk",
+  "version": "1.0.0",
+  "description": "React-based port of knetwalk",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/manutenfruits/NetWalk.git"
+  },
+  "keywords": [
+    "knetwalk",
+    "react",
+    "netstumbler",
+    "scramblednet",
+    "netwalk"
+  ],
+  "author": "Manuel Diez Frutos",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/manutenfruits/NetWalk/issues"
+  },
+  "homepage": "https://github.com/manutenfruits/NetWalk#readme",
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "file-loader": "^0.8.4",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.6",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^0.14.2"
+  }
+}
